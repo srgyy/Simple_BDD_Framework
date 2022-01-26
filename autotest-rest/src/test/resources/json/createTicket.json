@@ -1,0 +1,17 @@
+{
+  "due_date": "2022-01-26",
+  "assigned_to": "string",
+  "title": "string",
+  "created": "2022-01-26T20:23:08.131Z",
+  "modified": "2022-01-26T20:23:08.131Z",
+  "submitter_email": "user@example.com",
+  "status": 1,
+  "on_hold": true,
+  "description": "string",
+  "resolution": "string",
+  "priority": 1,
+  "secret_key": "string",
+  "queue": 0,
+  "kbitem": 0,
+  "merged_to": 0
+}
