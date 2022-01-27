@@ -5,8 +5,8 @@
   Сценарий: Создание тикета с высоким приоритетом
 
     * создать запрос
-      | method | path          | body              | url                                    |
-      | POST   | /api/tickets/ | createTicket.json | https://at-sandbox.workbench.lanit.ru/ |
+      | method | path          | body              | url     |
+      | POST   | /api/tickets/ | createTicket.json | baseUrl |
 
     * добавить header
       | Content-Type | application/json |

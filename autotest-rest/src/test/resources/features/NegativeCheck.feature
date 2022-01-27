@@ -5,8 +5,8 @@
   Сценарий: Негативная проверка
 
     * создать запрос
-      | method | path       | body             | url                                    |
-      | POST   | /api/login | createLogin.json | https://at-sandbox.workbench.lanit.ru/ |
+      | method | path       | body             | url     |
+      | POST   | /api/login | createLogin.json | baseUrl |
 
     * добавить header
       | Content-Type | application/json |
