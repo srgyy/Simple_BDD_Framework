@@ -1,6 +1,5 @@
 {
   "due_date": "2022-01-26",
-  "assigned_to": "string",
   "title": "string",
   "created": "2022-01-26T20:23:08.131Z",
   "modified": "2022-01-26T20:23:08.131Z",
@@ -11,7 +10,5 @@
   "resolution": "string",
   "priority": 1,
   "secret_key": "string",
-  "queue": 0,
-  "kbitem": 0,
-  "merged_to": 0
+  "queue": 1
 }

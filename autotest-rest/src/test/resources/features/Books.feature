@@ -1,5 +1,5 @@
 #language:ru
-@test
+#@test
 
 Функционал: Образец GET запроса
 

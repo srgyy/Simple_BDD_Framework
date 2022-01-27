@@ -5,8 +5,8 @@
   Сценарий: Негативная проверка
 
     * создать запрос
-      | method | path       | body             | url     |
-      | POST   | /api/login | createLogin.json | baseUrl |
+      | method | path       | body             |
+      | POST   | /api/login | createLogin.json |
 
     * добавить header
       | Content-Type | application/json |

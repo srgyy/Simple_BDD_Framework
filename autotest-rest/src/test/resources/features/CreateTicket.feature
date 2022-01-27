@@ -5,12 +5,12 @@
   Сценарий: Создание тикета с высоким приоритетом
 
     * создать запрос
-      | method | path          | body              | url     |
-      | POST   | /api/tickets/ | createTicket.json | baseUrl |
+      | method | path          | body              |
+      | POST   | /api/tickets/ | createTicket.json |
 
     * добавить header
       | Content-Type | application/json |
 
     * отправить запрос
 
-    * статус код 200
+    * статус код 201
