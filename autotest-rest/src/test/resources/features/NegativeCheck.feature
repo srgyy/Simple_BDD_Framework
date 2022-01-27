@@ -1,16 +1,16 @@
 #language: ru
-#@test
+@test
 Функционал: API тесты
 
   Сценарий: Негативная проверка
 
     * создать запрос
       | method | path       | body             |
-      | POST   | /api/login | createLogin.json |
+      | PATCH   | api/tickets/2 | closeStatus.json |
 
     * добавить header
       | Content-Type | application/json |
 
     * отправить запрос
 
-    * статус код 200
+    * статус код 400
