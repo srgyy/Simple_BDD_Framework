@@ -5,12 +5,12 @@
   Сценарий: Негативная проверка
 
     * создать запрос
-      | method | path       | body             |
-      | PATCH   | api/tickets/2 | closeStatus.json |
+      | method | path          | body             |
+      | PATCH  | api/tickets/1 | closeStatus.json |
 
     * добавить header
       | Content-Type | application/json |
 
     * отправить запрос
 
-    * статус код 400
+    * статус код 422
